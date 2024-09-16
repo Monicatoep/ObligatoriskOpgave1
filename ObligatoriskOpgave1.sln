@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObligatoriskOpgave1", "ObligatoriskOpgave1\ObligatoriskOpgave1.csproj", "{7CA12F81-2F66-4AC7-A2AB-02B5CE8DE27B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObligatoriskOpgave1Test", "ObligatoriskOpgave1Test\ObligatoriskOpgave1Test.csproj", "{8FC429AA-BEAF-4295-9953-ED3D52F19C3A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7CA12F81-2F66-4AC7-A2AB-02B5CE8DE27B} = {7CA12F81-2F66-4AC7-A2AB-02B5CE8DE27B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CA12F81-2F66-4AC7-A2AB-02B5CE8DE27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA12F81-2F66-4AC7-A2AB-02B5CE8DE27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA12F81-2F66-4AC7-A2AB-02B5CE8DE27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA12F81-2F66-4AC7-A2AB-02B5CE8DE27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC429AA-BEAF-4295-9953-ED3D52F19C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC429AA-BEAF-4295-9953-ED3D52F19C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC429AA-BEAF-4295-9953-ED3D52F19C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC429AA-BEAF-4295-9953-ED3D52F19C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6C17843-0919-4E1A-AAF5-F3358B67B553}
+	EndGlobalSection
+EndGlobal
